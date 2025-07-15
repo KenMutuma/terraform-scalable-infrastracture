@@ -54,7 +54,7 @@ This Terraform project provisions a production-ready AWS environment including V
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/kenMutuma/terraform-aws-infra.git
+   git clone https://github.com/KenMutuma/terraform-scalable-infrastracture.git
    cd terraform-aws-infra
    ```
 
@@ -80,7 +80,7 @@ This Terraform project provisions a production-ready AWS environment including V
 
 ## 📝 Notes
 
-- The AMI used in the Launch Template is hardcoded (`ami-04b4f1a9cf54c11d0`) and should be updated as needed.
+- The AMI used in the Launch Template that is hardcoded (`ami-04b4f1a9cf54c11d0`) and should be updated as needed.
 - The Auto Scaling Group ensures a minimum of 2 and a maximum of 6 instances.
 - Some blocks (e.g., EC2 instance using a standalone network interface) are commented out but left for future extension.
 
